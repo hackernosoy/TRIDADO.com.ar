@@ -1,0 +1,129 @@
+body{
+font-family: Arial;
+background-color:#111;
+background-image:url("https://www.transparenttextures.com/patterns/cubes.png");
+background-size:200px;
+color:white;
+margin:0;
+text-align:center;
+}
+@keyframes moverFondo{
+0%{background-position:0 0;}
+100%{background-position:500px 500px;}
+}
+
+body{
+animation:moverFondo 60s linear infinite;
+}
+.titulo{
+padding:40px;
+}
+
+.titulo h1{
+font-size:60px;
+letter-spacing:5px;
+margin:0;
+}
+
+.titulo p{
+color:gray;
+}
+
+.productos{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.producto{
+background:#1e1e1e;
+padding:20px;
+border-radius:10px;
+width:200px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+#carrito{
+background:#1e1e1e;
+padding:20px;
+margin-top:30px;
+border-radius:10px;
+display:inline-block;
+}
+
+li{
+margin:10px;
+}
+
+footer{
+margin-top:50px;
+padding:20px;
+background:#0a0a0a;
+}
+
+footer a{
+color:#25D366;
+text-decoration:none;
+font-weight:bold;
+}
+
+.redes{
+position:fixed;
+bottom:20px;
+right:20px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.wsp{
+background:#25D366;
+color:white;
+padding:12px 15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.ig{
+background:#E1306C;
+color:white;
+padding:12px 15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+.sobre{
+padding:40px;
+max-width:600px;
+margin:auto;
+}
+
+.ventajas{
+margin-top:40px;
+}
+
+.ventaja{
+background:#1e1e1e;
+padding:15px;
+margin:10px auto;
+width:250px;
+border-radius:8px;
+}
+
+.comprar{
+margin-top:40px;
+padding:20px;
+}
+
